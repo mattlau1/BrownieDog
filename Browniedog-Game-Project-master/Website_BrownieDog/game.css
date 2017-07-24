@@ -18,6 +18,9 @@ ul {
 li {
     float: left;
 }
+.game{
+  background-color: rgb(0, 102, 102);
+}
 
 li a {
     display: block;
@@ -34,4 +37,14 @@ li a:hover {
 
 html{
   background-color: rgb(98, 194, 194);
+}
+article {
+    margin-left: 0px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(0, 102, 102);
+  }
+h1 {
+  color: white;
 }
