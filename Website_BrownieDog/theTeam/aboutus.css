@@ -37,27 +37,7 @@ li a:hover {
 html{
   background-color: black; /*rgb(98, 194, 194)*/
 }
-.unav {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(0, 102, 102, 0.5);
-  text-align: right;
-  min-width: 200px;
-  position: absolute;
-  top: 65px;
-  left: 15px;
-  font-size: 18px;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
 
-}
 img {
   z-index: -1;
 }
@@ -182,11 +162,4 @@ img {
 
 .bibliography {
   font-family: 'Roboto', sans-serif;
-}
-
-.ad {
-  float: left;
-  margin-left: -150px;
-  margin-top: 200px;
-
 }
