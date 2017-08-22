@@ -190,3 +190,28 @@ img {
   margin-top: 200px;
 
 }
+
+.main {
+ background-color: rgb(56, 165, 165);
+ margin-left: 10px;
+ margin-right: 320px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ padding: 20px;
+ font-size: 110%;
+ font-family: 'Roboto', sans-serif;
+ color: white;
+ }
+
+ .imagesidebar{
+ margin-left: 0px;
+ margin-right: 5px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ float: right;
+ clear: right;
+ width: 295px;
+ height: 500px;
+}
