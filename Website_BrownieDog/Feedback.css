@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.zap {
+  text-align: left;
+}
+
+.a {
+  text-align: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 149, 149); /**/
+    text-align: right;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 102, 102);
+}
+
+html{
+  background-color: rgb(19, 129, 129); /*rgb(98, 194, 194)*/
+  width: 99.35%
+}
+.unav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 102, 102, 0.5);
+  text-align: right;
+  min-width: 200px;
+  position: absolute;
+  top: 65px;
+  left: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+
+}
+img {
+  z-index: -1;
+}
+/* hover shit */
+.containerteam {
+    background-color: rgb(29, 149, 149);
+    font-family: ;
+}
+
+.containerteam a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.containerbibliography {
+    background-color: rgb(29, 149, 149);
+    font-family: ;
+}
+
+.containerbibliography a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.containercreation {
+    background-color: rgb(29, 149, 149);
+    font-family: ;
+}
+
+.containercreation a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.containergame {
+    background-color: rgb(29, 149, 149);
+    font-family: ;
+}
+
+.containergame a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 102, 102);;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 102, 102);
+    min-width: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.team {
+ font-family: 'Roboto', sans-serif;
+}
+
+.game {
+ font-family: 'Roboto', sans-serif;
+}
+
+.creation {
+ font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+ font-family: 'Roboto', sans-serif;
+ }
+
+.faqs {
+ font-family: 'Roboto', sans-serif;
+}
+
+.bibliography {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ad {
+  float: left;
+  margin-left: -150px;
+  margin-top: 200px;
+
+}
+
+.main {
+ background-color: rgb(56, 165, 165);
+ margin-left: 10px;
+ margin-right: 320px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ padding: 20px;
+ font-size: 110%;
+ font-family: 'Roboto', sans-serif;
+ color: white;
+ }
+
+ .imagesidebar{
+ margin-left: -20px;
+ margin-right: 0px;
+ margin-top: 0px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ padding-left: 0px;     
+ float: right;
+ clear: right;
+ width: 300px;
+ height: 921px;
+}
+
+.feedbackform {
+    margin-left: 0px;
+    margin-right: -20px;
+    
+}
+
+.feedback {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+position: relative;
+height: 20px;
+width: 100%;
+ 
+}
+
+p.copyright {
+position: absolute;
+width: 100%;
+color: white;
+line-height: 40px;
+font-size: 0.7em;
+text-align: center;
+bottom: 1;
+font-family: 'Roboto', sans-serif;
+}

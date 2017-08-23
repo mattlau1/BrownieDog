@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .zap {
   text-align: left;
@@ -35,7 +36,7 @@ li a:hover {
 }
 
 html{
-  background-color: black; /*rgb(98, 194, 194)*/
+  background-color: rgb(19, 129, 129); /*rgb(98, 194, 194)*/
 }
 .unav {
   display: block;
@@ -214,4 +215,26 @@ img {
  clear: right;
  width: 295px;
  height: 500px;
+}
+
+.feedback {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+position: relative;
+height: 20px;
+width: 100%;
+ 
+}
+
+p.copyright {
+position: absolute;
+width: 100%;
+color: white;
+line-height: 40px;
+font-size: 0.7em;
+text-align: center;
+bottom: 1;
+font-family: 'Roboto', sans-serif;
 }
